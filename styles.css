@@ -1,0 +1,19 @@
+p, h3 {
+    font-size: 20px;
+}
+#descripcion {
+    color: green;
+}
+.fechas {
+    color: red;
+}
+p.fechas {
+    font-size: 14px;
+}
+table {
+    color: blue;
+    font-style: italic;
+}
+table.especial {
+    font-style: normal;
+}
