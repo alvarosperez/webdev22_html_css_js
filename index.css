@@ -1,0 +1,109 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    min-height: 100%;
+    min-width: 100%;
+    color: #1a1a1a;
+    background-color: #f1f1f1;
+}
+
+nav {
+    width: 100%;
+    height: 80px;
+    padding: 21px 24px;
+    background-color: white;
+
+    box-shadow: 0 1px 2px rgba(0, 78, 128, 0.1), 0 4px 8px rgba(0, 0, 0, 0.13);
+}
+nav > span.Title {
+    font-size: 24px;
+    border-right: 1px solid #1a1a1a;
+}
+nav > * {
+    padding: 0 20px;
+}
+
+#description {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#profile {
+    border-radius: 15px;
+    border: 3px solid white;
+}
+hr {
+    border: 1px solid white;
+}
+
+h3.centered {
+    text-align: center;
+    background-color: white;
+    padding: 10px 0;
+    margin-bottom: 0;
+    font-weight: 100;
+    /* text-transform: uppercase; */
+    font-size: 18px;
+}
+#studies, h3.centered {
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#studies td {
+    border-bottom: 2px solid white;
+    padding: 0 20px;
+}
+#studies td:first-child {
+    border-right: 2px solid white;
+}
+.fechas {
+    font-size: 12px;
+    font-style: italic;
+}
+.centerName {
+    margin: 0;
+    font-size: 16px;
+    font-weight: normal;
+}
+.location {
+    font-size: 12px;
+    margin-left: 10px;
+    font-style: italic;
+}
+.location::before{
+    content: "- ";
+}
+#studies h4 {
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #bbb;
+    border-radius: 3px;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #888;
+}

@@ -5,24 +5,24 @@
         <link rel="icon" type="image/x-icon" href="./imagenes/favicon.png">
         <title>Álvaro Sánchez</title>
 
-        <link rel="stylesheet" href="./styles.css">
+        <link rel="stylesheet" href="./index.css">
     </head>
 
-    <body style="background-color: #f1f1f1; color: #1a1a1a;">
+    <body>
         <nav>
+            <span class="Title">Álvaro Sánchez</span>
             <a href="./index.html">Inicio</a>
             <a href="./contacto.html">Contacto</a>
         </nav>
-        <table cellpadding="20">
+        <table id="description" cellpadding="20">
             <tr>
                 <td>
-                    <img src="./imagenes/perfil.jpg" width="200" />
+                    <img id="profile" src="./imagenes/perfil.jpg" width="200" />
                 </td>
                 <td>
                     <h1>Álvaro Sánchez</h1>
                     <h3>Especialista en Big Data y Visualización</h3>
 
-                    <br />
                     <hr size="1" />
 
                     <p id="descripcion">
@@ -36,11 +36,11 @@
                 </td>
             </tr>
         </table>
-        <h3>Estudios</h3>
-        <table class="especial">
+        <h3 class="centered">Formación</h3>
+        <table id="studies">
             <tr>
                 <td>
-                    <h3 class="fechas">Universidad Europea de Madrid</h3>
+                    <h3 class="centerName">Universidad Europea de Madrid</h3>
                     <p class="fechas">September 2022 - September 2023</p>
                 </td>
                 <td>
@@ -48,12 +48,12 @@
                     <p>
                         Technologies for the analysis and processing of Big Data. Visualization techniques. Architecture and infrastructure of Big Data systems.
                     </p>
-                    <p>Madrid</p>
+                    <p class="location">Madrid</p>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <h3>Universidad Nacional de Estudios a Distancia</h3>
+                    <h3 class="centerName">Universidad Nacional de Estudios a Distancia</h3>
                     <p class="fechas">January 2015 - November 2015</p>
                 </td>
                 <td>
@@ -61,14 +61,12 @@
                     <p>
                         Technologies for the analysis and processing of Big Data. Leading methods and algorithms for Data Mining, including text and web mining.
                     </p>
-                    <p>
-                        Distance learning program
-                    </p>
+                    <p class="location">Distance learning program</p>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <h3>Universidad Carlos III</h3>
+                    <h3 class="centerName">Universidad Carlos III</h3>
                     <p class="fechas">September 2009 - July 2013</p>
                 </td>
                 <td>
@@ -82,7 +80,7 @@
                     <p>
                         Thesis: Advanced Classification System for the Estimation of the Gender, Age and Type of User in Twitter.
                     </p>
-                    <p>Madrid</p>
+                    <p class="location">Madrid</p>
                 </td>
             </tr>
         </table>
