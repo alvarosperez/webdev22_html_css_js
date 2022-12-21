@@ -33,13 +33,18 @@ nav > * {
 }
 
 #description {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     max-width: 900px;
     margin-left: auto;
     margin-right: auto;
+
 }
 #profile {
     border-radius: 15px;
     border: 3px solid white;
+    margin-right: 20px;
 }
 hr {
     border: 1px solid white;
@@ -54,6 +59,12 @@ h3.centered {
     /* text-transform: uppercase; */
     font-size: 18px;
 }
+#studies {
+    display: grid;
+    grid-template-columns: 200px auto;
+    align-items: center;
+    column-gap: 20px;
+}
 #studies, h3.centered {
     max-width: 1100px;
     margin-left: auto;
@@ -62,9 +73,6 @@ h3.centered {
 #studies td {
     border-bottom: 2px solid white;
     padding: 0 20px;
-}
-#studies td:first-child {
-    border-right: 2px solid white;
 }
 .fechas {
     font-size: 12px;
